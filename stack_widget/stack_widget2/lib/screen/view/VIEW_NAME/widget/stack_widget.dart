@@ -99,7 +99,7 @@ final double svgbottom;
                   padding: const EdgeInsets.only(left:8),
                   child: Text(txt3,
                     style: const TextStyle(
-                      fontSize: 15,
+                      fontSize: 14,
                       fontWeight: FontWeight.w400,
                       fontStyle: FontStyle.italic,
                       color: AppColors.whitecolorr,
