@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:spacer_widget/screen/core/app_colors.dart';
+import 'package:spacer_widget/screen/core/app_constants.dart';
 import 'package:spacer_widget/screen/view/VIEW_NAME/widget/newcontainer_widget.dart';
 
 class SpacerScreen extends StatelessWidget {
@@ -14,7 +15,7 @@ class SpacerScreen extends StatelessWidget {
     return Scaffold(
       body: SafeArea(
         child: Padding(
-          padding: const EdgeInsets.only(top: 30, left: 20, right: 20,bottom: 10),
+          padding: AppConstants.basePadding,
           child: SizedBox(
             width: screenwidth,
             height:  screenheight,
