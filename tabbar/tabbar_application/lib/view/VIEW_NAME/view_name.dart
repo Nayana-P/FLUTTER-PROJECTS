@@ -13,9 +13,9 @@ class TabbarScreen extends StatefulWidget {
 
 class _TabbarScreenState extends State<TabbarScreen>  with SingleTickerProviderStateMixin{
 
-  List<String> cname = ["Mom","Rommates","Kevin Kim","Sunday Crew","Abuela","Russell Andrews","Chloe Bower","Roxane Clediere"];
-  List<String> msg = ["Mom sent 3 photos","You: Let's meet at home ...","Nice to meet you at Elen...","You changed Kendras nick","ok","what chapter do we have to","You:did i leave my umbrella","hi"];
-  List<String> msgtime = ["10:38 PM","10:27 PM","10:20 PM","10:00 PM","8:30 PM","8:00 PM","Monday","Monday"];
+  List<String> cname = ["Mom","Rommates","Kevin Kim","Sunday Crew","Abuela","Russell Andrews","Chloe Bower","Roxane Clediere","anu","nayana"];
+  List<String> msg = ["Mom sent 3 photos","You: Let's meet at home ...","Nice to meet you at Elen...","You changed Kendras nick","ok","what chapter do we have to","You:did i leave my umbrella","hi","hi","hello"];
+  List<String> msgtime = ["10:38 PM","10:27 PM","10:20 PM","10:00 PM","8:30 PM","8:00 PM","Monday","Monday","monday","monday"];
   List imgList = [
     "assets/images/BB.PNG",
     "assets/images/a.jpg",
@@ -24,6 +24,8 @@ class _TabbarScreenState extends State<TabbarScreen>  with SingleTickerProviderS
     "assets/images/d.jpg",
     "assets/images/BB.PNG",
     "assets/images/a.jpg",
+    "assets/images/a.jpg",
+     "assets/images/a.jpg",
     "assets/images/a.jpg",
     ];
 
@@ -96,7 +98,7 @@ class _TabbarScreenState extends State<TabbarScreen>  with SingleTickerProviderS
               time: msgtime[index],
             );
           },
-          itemCount: 8,
+          itemCount: 10,
         ),
         Container(
           width: screenwidth,
